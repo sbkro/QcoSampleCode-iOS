@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		724C95461596DE7B00D8ADED /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 724C95441596DE7B00D8ADED /* icon.png */; };
+		724C95471596DE7B00D8ADED /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 724C95451596DE7B00D8ADED /* Icon@2x.png */; };
+		72F8665A1596A159006873BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F866591596A159006873BD /* UIKit.framework */; };
+		72F8665C1596A159006873BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F8665B1596A159006873BD /* Foundation.framework */; };
+		72F8665E1596A159006873BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F8665D1596A159006873BD /* CoreGraphics.framework */; };
+		72F866641596A159006873BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72F866621596A159006873BD /* InfoPlist.strings */; };
+		72F866661596A159006873BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F866651596A159006873BD /* main.m */; };
+		72F8666A1596A159006873BD /* QSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F866691596A159006873BD /* QSAppDelegate.m */; };
+		72F8666D1596A159006873BD /* QSViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 72F8666C1596A159006873BD /* QSViewController.mm */; };
+		72F866701596A159006873BD /* QSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72F8666E1596A159006873BD /* QSViewController.xib */; };
+		72F866821596A431006873BD /* libQco.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F866811596A431006873BD /* libQco.a */; };
+		72F866861596C8D7006873BD /* QSQRcodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F866841596C8D7006873BD /* QSQRcodeViewController.m */; };
+		72F866871596C8D7006873BD /* QSQRcodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72F866851596C8D7006873BD /* QSQRcodeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		724C95441596DE7B00D8ADED /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		724C95451596DE7B00D8ADED /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		72F866551596A159006873BD /* QcoSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QcoSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F866591596A159006873BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		72F8665B1596A159006873BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		72F8665D1596A159006873BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		72F866611596A159006873BD /* QcoSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QcoSample-Info.plist"; sourceTree = "<group>"; };
+		72F866631596A159006873BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72F866651596A159006873BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72F866671596A159006873BD /* QcoSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QcoSample-Prefix.pch"; sourceTree = "<group>"; };
+		72F866681596A159006873BD /* QSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSAppDelegate.h; sourceTree = "<group>"; };
+		72F866691596A159006873BD /* QSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSAppDelegate.m; sourceTree = "<group>"; };
+		72F8666B1596A159006873BD /* QSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSViewController.h; sourceTree = "<group>"; };
+		72F8666C1596A159006873BD /* QSViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = QSViewController.mm; sourceTree = "<group>"; };
+		72F8666F1596A159006873BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QSViewController.xib; sourceTree = "<group>"; };
+		72F8667B1596A245006873BD /* QCQRCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCQRCode.h; sourceTree = "<group>"; };
+		72F866811596A431006873BD /* libQco.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQco.a; path = QcoSample/libQco.a; sourceTree = "<group>"; };
+		72F866831596C8D7006873BD /* QSQRcodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSQRcodeViewController.h; sourceTree = "<group>"; };
+		72F866841596C8D7006873BD /* QSQRcodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSQRcodeViewController.m; sourceTree = "<group>"; };
+		72F866851596C8D7006873BD /* QSQRcodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QSQRcodeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72F866521596A159006873BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F866821596A431006873BD /* libQco.a in Frameworks */,
+				72F8665A1596A159006873BD /* UIKit.framework in Frameworks */,
+				72F8665C1596A159006873BD /* Foundation.framework in Frameworks */,
+				72F8665E1596A159006873BD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72F8664A1596A159006873BD = {
+			isa = PBXGroup;
+			children = (
+				72F8665F1596A159006873BD /* QcoSample */,
+				72F866581596A159006873BD /* Frameworks */,
+				72F866561596A159006873BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72F866561596A159006873BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72F866551596A159006873BD /* QcoSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72F866581596A159006873BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72F866811596A431006873BD /* libQco.a */,
+				72F866591596A159006873BD /* UIKit.framework */,
+				72F8665B1596A159006873BD /* Foundation.framework */,
+				72F8665D1596A159006873BD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72F8665F1596A159006873BD /* QcoSample */ = {
+			isa = PBXGroup;
+			children = (
+				72F8667B1596A245006873BD /* QCQRCode.h */,
+				72F866681596A159006873BD /* QSAppDelegate.h */,
+				72F866691596A159006873BD /* QSAppDelegate.m */,
+				72F866831596C8D7006873BD /* QSQRcodeViewController.h */,
+				72F866841596C8D7006873BD /* QSQRcodeViewController.m */,
+				72F866851596C8D7006873BD /* QSQRcodeViewController.xib */,
+				72F8666B1596A159006873BD /* QSViewController.h */,
+				72F8666C1596A159006873BD /* QSViewController.mm */,
+				72F8666E1596A159006873BD /* QSViewController.xib */,
+				72F866601596A159006873BD /* Supporting Files */,
+			);
+			path = QcoSample;
+			sourceTree = "<group>";
+		};
+		72F866601596A159006873BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				724C95441596DE7B00D8ADED /* icon.png */,
+				724C95451596DE7B00D8ADED /* Icon@2x.png */,
+				72F866611596A159006873BD /* QcoSample-Info.plist */,
+				72F866621596A159006873BD /* InfoPlist.strings */,
+				72F866651596A159006873BD /* main.m */,
+				72F866671596A159006873BD /* QcoSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72F866541596A159006873BD /* QcoSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72F866731596A159006873BD /* Build configuration list for PBXNativeTarget "QcoSample" */;
+			buildPhases = (
+				72F866511596A159006873BD /* Sources */,
+				72F866521596A159006873BD /* Frameworks */,
+				72F866531596A159006873BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QcoSample;
+			productName = QcoSample;
+			productReference = 72F866551596A159006873BD /* QcoSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72F8664C1596A159006873BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QS;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 72F8664F1596A159006873BD /* Build configuration list for PBXProject "QcoSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 72F8664A1596A159006873BD;
+			productRefGroup = 72F866561596A159006873BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72F866541596A159006873BD /* QcoSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72F866531596A159006873BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F866641596A159006873BD /* InfoPlist.strings in Resources */,
+				72F866701596A159006873BD /* QSViewController.xib in Resources */,
+				72F866871596C8D7006873BD /* QSQRcodeViewController.xib in Resources */,
+				724C95461596DE7B00D8ADED /* icon.png in Resources */,
+				724C95471596DE7B00D8ADED /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72F866511596A159006873BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F866661596A159006873BD /* main.m in Sources */,
+				72F8666A1596A159006873BD /* QSAppDelegate.m in Sources */,
+				72F8666D1596A159006873BD /* QSViewController.mm in Sources */,
+				72F866861596C8D7006873BD /* QSQRcodeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72F866621596A159006873BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72F866631596A159006873BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		72F8666E1596A159006873BD /* QSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72F8666F1596A159006873BD /* en */,
+			);
+			name = QSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72F866711596A159006873BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72F866721596A159006873BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72F866741596A159006873BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QcoSample/QcoSample-Prefix.pch";
+				INFOPLIST_FILE = "QcoSample/QcoSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/QcoSample\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		72F866751596A159006873BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QcoSample/QcoSample-Prefix.pch";
+				INFOPLIST_FILE = "QcoSample/QcoSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/QcoSample\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72F8664F1596A159006873BD /* Build configuration list for PBXProject "QcoSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F866711596A159006873BD /* Debug */,
+				72F866721596A159006873BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72F866731596A159006873BD /* Build configuration list for PBXNativeTarget "QcoSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F866741596A159006873BD /* Debug */,
+				72F866751596A159006873BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72F8664C1596A159006873BD /* Project object */;
+}
